@@ -7,7 +7,7 @@ header <- dashboardHeader(
 
 body <- dashboardBody(
   fluidRow(
-    column(width = 9,
+    column(width = 12,
       box(width = NULL, solidHeader = TRUE,
         leafletOutput("busmap", height = 500)
       ),
